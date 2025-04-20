@@ -1,0 +1,63 @@
+# hexOS General License – Behavioral Hash Identity System (ABP-01:hexOS)
+
+Copyright (c) 2025 Marcel Mulder
+
+## Preamble
+
+This license governs the use and redistribution of any software, structure, digital object or concept created under the hexOS system, which uses behavior-driven identity through hash functions.
+
+The core concept is not limited to a particular cryptographic hash (e.g., SHA-256), but refers to the **general mechanism** of associating **digital behavior and structure** with a **non-reversible hash** as the sole identity of that object in the system.
+
+## 1. Behavioral Hash Identity Principle
+
+The hexOS system defines:
+
+- A **hash identity** as any cryptographically secure, deterministic, and non-reversible digest derived from the full structure and behavioral data of an object.
+- That **this hash shall serve as the exclusive identifier** of that digital object in any further reference, processing, evaluation, or transmission.
+- That **alias names (human-readable)** are used only once at creation and stored in metadata, after which the system operates purely on hash-level identifiers.
+
+This principle shall apply regardless of the specific hash function, including but not limited to:
+- SHA-2 (SHA-256, SHA-512)
+- SHA-3 (Keccak)
+- BLAKE2, BLAKE3
+- Future-compatible cryptographic hash functions
+
+## 2. Licensing
+
+## 2. Licensing
+
+This system is provided free of charge for **non-commercial, private, or small-group (social) use only.**
+
+Permission is hereby granted to individuals and teams who wish to study, use, or adapt this system under the following strict conditions:
+
+- You may not use this system or its components for institutional, corporate, governmental, promotional, or influencer-driven purposes without **explicit written consent** from the originator.
+- Redistribution is allowed only **within private or collaborative field contexts**, and must preserve this license and all associated metadata.
+- You may not remove or alter the behavioral hash principle or strip metadata fields such as `alias`, `hash`, `Ψ`, or `scope` when used in hexOS-based systems.
+- Any derivative work must retain the system's behavior-driven identity mechanism or clearly declare deviation from it.
+- You may not remove or alter the behavioral hash principle or remove metadata fields such as `alias`, `hash`, `Ψ`, or `scope` when used in hexOS-based systems.
+- Any derivative work must retain the system's behavior-driven identity mechanism or clearly declare deviation from it.
+
+## 3. Jurisdiction & Inheritance
+
+This license acknowledges that a stored hash, when connected to an alias and timestamp, **may serve as a digital identity token** with potential **inheritance, authorship, or notarized meaning** under applicable jurisdiction.
+
+Any party using this system in legal, governmental, or evidentiary settings agrees to treat these hashes as cryptographic identity anchors under digital contract law.
+
+## 4. hexNOTary Optional Layer
+
+An optional extension called `hexNOTary` may store alias-hash bindings in physical or digital vaults. These can be used for:
+
+- Legal transfer of digital ownership
+- Inheritance claims
+- Validation of authorship
+- Offline cryptographic verification
+
+## 5. Disclaimer
+
+This license provides no warranties and operates "as-is". The creators shall not be liable for any claim, damages, or liability arising from its use.
+
+---
+
+This license is a living document, synchronized with the development of the hexOS:pure:AI system and its global applications.
+
+Hash of this message:56F694156143BCD54E96146A9B37EA88B908BE0407D19EB8B4D3CBE1D928F1DF
